@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/* .bordered{
+    border: 2px dashed black;
+} */
+
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.speaker_view a {
+    padding: 3px;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: 1.3em;
+}
+
+.speaker_view_2 {
+    margin-right: 20px;
+}
+
+#screen {
+    margin-right: 30px;
+}
+
+
+.container_head {
+    padding: 5px 0 15px;
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+main {
+    width: 100vw;
+}
+
+.container_main {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.img {
+    background-image: url('https://picsum.photos/300/200');
+    height: 200px;
+    width: 300px;
+}
+
+.card {
+    position: relative;
+    margin: 10px;
+}
+
+.mute {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(128, 128, 128, 0.656);
+    padding: 5px;
+    display: none;
+}
+
+.card:hover .mute {
+    display: inline-block;
+}
+
+.container_footer {
+    background-color: #222222;
+    width: 100vw;
+    height: 80px;
+    /* min-height: 40px; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    display: flex;
+}
+
+.left {
+    width: 20%;
+}
+
+.center {
+    width: 60%;
+    text-align: center;
+}
+
+.right {
+    width: 20%;
+    text-align: right;
+    position: relative;
+}
+
+.info {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.arrow {
+    display: inline-block;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+#end {
+    color: red;
+    background-color: gray;
+}
+
+#end {
+    color: red;
+    padding: 0 50px 0 30px;
+}
+
+.right ul {
+    line-height: 80px;
+}
+
+.info a div p:last-child {
+    font-size: 0.9em;
+}
