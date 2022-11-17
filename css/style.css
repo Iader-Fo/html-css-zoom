@@ -25,13 +25,20 @@ a{
     color: white;
 }
 
-.speaker_view a{
-    
+.speaker_view a{    
     padding: 3px;
     border-radius: 5px;
     background-color: gray;
+    font-size: 1.3em;
 }
 
+.speaker_view_2{
+    margin-right: 20px;
+}
+
+#screen{
+    margin-right: 30px;
+}
 
 
 .container_head{
@@ -126,7 +133,11 @@ main{
 #end{
     color: red;
     background-color: gray;
-    padding: 31px 50px 31px 31px;
+}
+
+#end {
+    color: red;
+    padding: 0 50px 0 30px;
 }
 
 .right ul{
