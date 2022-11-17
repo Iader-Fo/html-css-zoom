@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -12,36 +12,36 @@ body{
     border: 2px dashed black;
 } */
 
-ul{
+ul {
     display: inline-block;
 }
 
-li{
+li {
     display: inline-block;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.speaker_view a{    
+.speaker_view a {
     padding: 3px;
     border-radius: 5px;
     background-color: gray;
     font-size: 1.3em;
 }
 
-.speaker_view_2{
+.speaker_view_2 {
     margin-right: 20px;
 }
 
-#screen{
+#screen {
     margin-right: 30px;
 }
 
 
-.container_head{
+.container_head {
     padding: 5px 0 15px;
     text-align: right;
     background-color: rgb(0, 0, 0);
@@ -52,12 +52,11 @@ a{
     z-index: 10;
 }
 
-main{
+main {
     width: 100vw;
-    
 }
 
-.container_main{
+.container_main {
     margin: auto;
     margin-top: 50px;
     margin-bottom: 90px;
@@ -68,27 +67,25 @@ main{
     align-content: space-between;
 }
 
-.img{
+.img {
     background-image: url('https://picsum.photos/300/200');
-    /* background-size: contain;
-    background-repeat: no-repeat; */
     height: 200px;
     width: 300px;
 }
 
-.card{
+.card {
     position: relative;
     margin: 10px;
 }
 
-.mute{
+.mute {
     position: absolute;
     bottom: 0;
     background-color: rgba(128, 128, 128, 0.656);
     padding: 5px;
 }
 
-.container_footer{
+.container_footer {
     background-color: #222222;
     width: 100vw;
     height: 80px;
@@ -100,37 +97,36 @@ main{
     display: flex;
 }
 
-.left{
+.left {
     width: 20%;
 }
 
-.center{
+.center {
     width: 60%;
     text-align: center;
 }
 
-.right{
+.right {
     width: 20%;
     text-align: right;
     position: relative;
 }
 
-.info{
+.info {
     text-align: center;
     display: inline-block;
     padding: 10px 10px;
 }
 
-.arrow{
+.arrow {
     display: inline-block;
-
 }
 
-.icon{
+.icon {
     font-size: 2em;
 }
 
-#end{
+#end {
     color: red;
     background-color: gray;
 }
@@ -140,11 +136,10 @@ main{
     padding: 0 50px 0 30px;
 }
 
-.right ul{
+.right ul {
     line-height: 80px;
-    
 }
 
-.info a div p:last-child{
+.info a div p:last-child {
     font-size: 0.9em;
 }
