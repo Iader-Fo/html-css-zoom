@@ -16,9 +16,24 @@ li{
     display: inline-block;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.speaker_view a{
+    
+    padding: 3px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+
+
 .container_head{
+    padding: 5px 0 15px;
     text-align: right;
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
     width: 100vw;
     position: fixed;
     left: 0;
