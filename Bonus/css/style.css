@@ -32,39 +32,32 @@ a {
     font-size: 1.3em;
 }
 
-.speaker_view_2 {
-    margin-right: 20px;
-}
-
-#screen {
-    margin-right: 30px;
-}
-
-
 .container_head {
     padding: 5px 0 15px;
     text-align: right;
     background-color: rgb(0, 0, 0);
-    width: 100vw;
+    height: 50px;
+    width: 100%;
     position: fixed;
     left: 0;
     top: 0;
     z-index: 10;
 }
 
-main {
-    width: 100vw;
+main { 
+    height: 100vh;
 }
 
 .container_main {
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 90px;
+    height: calc(100% - 130px);
     width: 80%;
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
-    align-content: space-between;
+    overflow: auto;
+    /* align-content: space-between; */
 }
 
 .img {
@@ -75,7 +68,7 @@ main {
 
 .card {
     position: relative;
-    margin: 10px;
+    margin: 5px;
 }
 
 .mute {
@@ -92,7 +85,7 @@ main {
 
 .container_footer {
     background-color: #222222;
-    width: 100vw;
+    width: 100%;
     height: 80px;
     /* min-height: 40px; */
     position: fixed;
@@ -138,7 +131,7 @@ main {
 
 #end {
     color: red;
-    padding: 0 50px 0 30px;
+    padding: 0 30px;
 }
 
 .right ul {
